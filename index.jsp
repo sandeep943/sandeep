@@ -26,7 +26,7 @@
       <li class="active"><a href="https://www.google.co.in/">HOME</a></li>
       <li><a href="login.html">LOGIN</a></li>
       <li><a href="signup.html">SIGNUP</a></li>
-      <li><a href="product.html">PRODUCTS</a></li>
+      <li><a href="prdct.html">PRODUCTS</a></li>
     </ul>
   </div>
 </nav>

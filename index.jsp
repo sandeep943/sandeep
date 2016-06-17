@@ -23,10 +23,10 @@
       <a class="navbar-brand" href="#">SPORTSGEAR</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">HOME</a></li>
-      <li><a href="#">LOGIN</a></li>
-      <li><a href="#">SIGNUP</a></li>
-      <li><a href="#">PRODUCTS</a></li>
+      <li class="active"><a href="https://www.google.co.in/">HOME</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="signup.html">SIGNUP</a></li>
+      <li><a href="product.html">PRODUCTS</a></li>
     </ul>
   </div>
 </nav>
@@ -45,19 +45,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="africa.jpg" width="460" height="400">
+        <img src="African.jpg" width="460" height="400">
       </div>
 
       <div class="item">
-        <img src="barca.jpg" width="460" height="400">
+        <img src="Barcelona.jpg" width="460" height="400">
       </div>
     
       <div class="item">
-        <img src="ynx.jpg" width="460" height="400">
+        <img src="yonexkit.jpg" width="460" height="400">
       </div>
       
       <div class="item">
-         <img src="barc.jpg" width="460" height="400">
+         <img src="ball.jpg" width="460" height="400">
       </div>
 
     <!-- Left and right controls -->
@@ -76,18 +76,18 @@
   
   <div class="row">
     <div class="col-md-4">
-      <a href="bat.jpg" class="thumbnail">
-        <img src="bat.jpg" style="width:250px;height:350px">
+      <a href="cric bat.jpg" class="thumbnail">
+        <img src="cric bat.jpg" style="width:250px;height:350px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="fedex.jpg" class="thumbnail">
-        <img src="fedex.jpg" style="width:250px;height:350px">
+      <a href="federer.jpg" class="thumbnail">
+        <img src="federer.jpg" style="width:250px;height:350px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="racket.jpg" class="thumbnail">
-        <img src="racket.jpg" style="width:250px;height:350px">
+      <a href="tennis racket.jpg" class="thumbnail">
+        <img src="tennis racket.jpg" style="width:250px;height:350px">
       </a>
     </div>
   </div>

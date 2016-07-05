@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>sportsgear1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
+ 
   <properties>
   <spring.version>4.3.0.RELEASE</spring.version>
   </properties>
@@ -20,7 +21,7 @@
     <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-orm</artifactId>
-    <version>${spring.version}</version>
+    <version>4.3.0.RELEASE</version>
     </dependency>
     <dependency>
      <groupId>org.hibernate</groupId>
@@ -28,16 +29,31 @@
     <version>5.0.1.Final</version>
     </dependency>
     <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
-        <version>3.0.1</version>
-        <scope>provided</scope>
-</dependency>
-    <dependency>
      <groupId>com.h2database</groupId>
     <artifactId>h2</artifactId>
     <version>1.4.191</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.7</version>
+</dependency>
+
+    <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+<dependency>
+ 	       <groupId>javax.servlet</groupId>
+    	    <artifactId>jstl</artifactId>
+        	<version>1.2</version>
+        	<scope>runtime</scope>
+    	</dependency>
+
+<!-- https://mvnrepository.com/artifact/taglibs/standard -->
+<dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+</dependency>
      <dependency>
        <groupId>net.sf.ehcache</groupId>
        <artifactId>ehcache-core</artifactId>
@@ -58,6 +74,11 @@
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		 	   <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+	   </dependency>	
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
@@ -73,3 +94,4 @@
     <finalName>sportsgear1</finalName>
   </build>
 </project>
+ 

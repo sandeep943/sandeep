@@ -48,19 +48,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="African.jpg" width="460" height="400">
+        <img src="resources/images/African.jpg" width="460" height="400">
       </div>
 
       <div class="item">
-        <img src="Barcelona.jpg" width="460" height="400">
+        <img src="resources/images/Barcelona.jpg" width="460" height="400">
       </div>
     
       <div class="item">
-        <img src="yonexkit.jpg" width="460" height="400">
+        <img src="resources/images/yonexkit.jpg" width="460" height="400">
       </div>
       
       <div class="item">
-         <img src="ball.jpg" width="460" height="400">
+         <img src="resources/images/ball.jpg" width="460" height="400">
       </div>
 
     <!-- Left and right controls -->
@@ -80,9 +80,9 @@
   <div class="row">
     <div class="col-md-6">
   
-            <img src="cric bat.jpg" class="img-thumbnail" style="width:225px;height:350px">
-        <img src="federer.jpg" class="img-thumbnail" style="width:225px;height:350px">
-        <img src="tennis racket.jpg" class="img-thumbnail" style="width:225px;height:350px">
+         <img src="resources/images/cric bat.jpg" class="img-thumbnail" style="width:225px;height:350px">
+        <img src="resources/images/federer.jpg" class="img-thumbnail" style="width:225px;height:350px">
+        <img src="resources/images/tennis racket.jpg" class="img-thumbnail" style="width:225px;height:350px">
       </div>
   </div>
 </div> 
